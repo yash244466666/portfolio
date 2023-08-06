@@ -1,0 +1,50 @@
+.offered-service {
+    margin: 5rem 0 0 0 ;
+}
+
+.service-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.service-txt h1 {
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+
+.service-card-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.service-card-txt h2 {
+    font-size: 1.4rem;
+    margin: 0 0 -1rem 0;
+}
+
+.service-card-txt p {
+    text-align: center;
+}
+
+.service-card-img {
+    width: 30%;
+
+}
+.service-card-img img {
+    width: 100%;
+    object-fit: cover;
+}
