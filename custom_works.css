@@ -32,11 +32,11 @@
 	padding: 30px 0;
 }
 .slider .slick-slide {
-	font-size: 30px;
-	text-align: center;
+	/* font-size: 30px; */
+	/* text-align: center; */
 	/* padding: 40px 20px; */
-	line-height: 2;
-	font-weight: 700;
+	/* line-height: 2; */
+	/* font-weight: 700; */
 }
 .slider .slick-slide:nth-child(even) {
 	background-color: #000;
