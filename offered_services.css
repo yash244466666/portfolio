@@ -48,3 +48,58 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media (min-width: 1280px) {
+    .offered-service {
+        margin: 10rem 5rem 0 5rem ;
+    }
+    
+    .service-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    
+    .service-txt h1 {
+        font-size: 3rem;
+        margin: 0 0 5rem 0;
+    }
+    
+    .service-cards {
+        display: grid;
+        grid-template-areas: 
+            "card1 card2 card3"
+            ;
+    }
+    .service-card-2 {
+        margin: 0 0 25rem 0;
+    }
+    
+    .service-card-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    
+    .service-card-txt h2 {
+        font-size: 1.4rem;
+        margin: 0 0 -1rem 0;
+    }
+    
+    .service-card-txt p {
+        text-align: center;
+    }
+    
+    .service-card-img {
+        width: 25%;
+    
+    }
+    .service-card-img img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
