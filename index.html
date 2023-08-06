@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./heroStyle.css">
     <link rel="stylesheet" href="./aboutStyle.css">
+    <link rel="stylesheet" href="./custom_works.css">
     <title>Yash Solo</title>
 </head>
 <body>
@@ -52,10 +57,90 @@
                 </div>
             </div>
             <div class="about-img">
-                <img class="aboutImg" src="./res/Clip path group.png" alt="aboutImg">
+                <img class="aboutImg" src="./res/yash.png" alt="aboutImg">
             </div>
         </div>
 
     </section>
+    <section class="recent-works">
+        <div class="recent-cont">
+            <div class="recent-txt">
+                <h1>Recent Works</h1>
+            </div>
+            <div class="slider">
+                <div class="images" alt="img">
+                    <a href="https://vespa-rentals-msq2.onrender.com/" target=”_blank” >
+                        <img src="./res/slider_img1-min.png">
+                    </a>
+                </div>
+                <div class="images">
+                    <a href="https://vespa-rentals-msq2.onrender.com/" target=”_blank” >
+                        <img src="./res/slider_img2-min.png">
+                    </a>
+                </div>
+                <div class="images">
+                    <a href="https://protfolio-ecommerce-yash.netlify.app/" target=”_blank” >
+                        <img src="./res/slider_img3-min.png">
+                    </a>
+                </div>
+                <div class="images">
+                    <a href="https://protfolio-ecommerce-yash.netlify.app/" target=”_blank” >
+                        <img src="./res/slider_img4-min.png">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+                $('.slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 1500,
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 1500,
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+        });
+    </script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
 </body>
 </html>
