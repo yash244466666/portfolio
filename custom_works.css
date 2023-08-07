@@ -40,7 +40,7 @@
 }
 .slick-arrow {
 	z-index: 1;
-	width: 40px;
+	width: 28px;
 	height: 40px;
     color: #000;
 }
@@ -84,5 +84,12 @@ button.slick-disabled {
     .images {
         width: 50%;
         padding: 2rem 15rem 2rem 15em;
+    }
+
+    .slick-arrow {
+        z-index: 1;
+        width: 200px;
+        height: 40px;
+        color: #000;
     }
 }

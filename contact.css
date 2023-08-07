@@ -13,9 +13,6 @@
     font-size: 1.6rem;
 }
 
-.contact-head h1 {
-    /* text-align: right; */
-}
 
 .social-media {
     display: flex;
@@ -36,9 +33,6 @@
     font-size: 1.7rem;
     text-align: right;
 }
-.social-link {
-    /* align-items: end; */
-}
 
 .email-link {
     display: flex;
@@ -57,24 +51,24 @@
 .contact-from {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0 7rem;
 
 }
 
 .contact-from h2 {
     font-size: 1.4rem;
-    text-align: right;
+    text-align: center;
     margin: 1rem 0 -0.2rem 0;
 }
 
 .contact-from-cnt {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0 0%;
 }
 
 .contact-from input {
@@ -104,9 +98,141 @@
     font-size: 1rem;
     background-color: #000;
     color: #fff;
+    transition: all 0.1s ease-in-out;
 }
 
 .contact-from-cnt button:hover {
     background-color: #fff;
     color: #000;
+}
+
+
+
+@media (min-width: 1280px) {
+
+    .contact-sec {
+        margin: -2rem 1rem 10rem 1rem;
+    }
+    
+    .contact-cont {
+        display: grid;
+        grid-template-areas:
+            "contact-head contact-head" 
+            "contact-from social-links"
+            "contact-from email-link";
+    }
+    .contact-head {
+        font-size: 2.5rem;
+        grid-area: contact-head;
+    }
+    
+    .contact-head h1 {
+        /* font-size: 2.5rem; */
+        text-align: left;
+    }
+    
+    .social-media {
+        display: grid;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        margin: 1rem 4rem -15rem 0rem;
+        grid-area: social-links;
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-end;
+        /* margin: 1rem 20% 0 40%; */
+    }
+    .social-links h2 {
+        font-size: 1.7rem;
+        text-align: right;
+    }
+    
+    .email-link {
+        display: grid;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin: -30rem 0 -20rem -30rem;
+        grid-area: email-links;
+
+    
+    }
+    .email {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin: 1rem 0% 0 10%;
+    }
+    
+    .email-link h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    .contact-from {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 3.5rem 0 0 0;
+        grid-area: contact-from;
+    
+    }
+    
+    .contact-from h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 1rem 0 -0.2rem 0;
+        
+    }
+    
+    .contact-from-cnt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 1rem 0 0 0;
+    }
+    
+    .contact-from input {
+        width: 80%;
+        padding: 1rem 1rem;
+        margin: 0.5rem 0;
+        border: 1px solid #000;
+        border-radius: 0px;
+        font-size: 1rem;
+    }
+    
+    .contact-from textarea {
+        width: 80%;
+        padding: 1rem 1rem;
+        margin: 0.5rem 0;
+        border: 1px solid #000;
+        border-radius: 0px;
+        font-size: 1rem;
+    }
+    
+    .contact-from button {
+        width: 94%;
+        padding: 1rem 1rem;
+        margin: 0.5rem 0;
+        border: 1px solid #000;
+        border-radius: 0px;
+        font-size: 1rem;
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .contact-from-cnt button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    
 }
