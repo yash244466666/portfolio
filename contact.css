@@ -1,0 +1,112 @@
+.contact-sec {
+    margin: 5rem 1rem 0 1rem;
+}
+
+.contact-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+.contact-head {
+    font-size: 1.6rem;
+}
+
+.contact-head h1 {
+    /* text-align: right; */
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    margin: 1rem 0 0 0%;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    /* margin: 1rem 20% 0 40%; */
+}
+.social-links h2 {
+    font-size: 1.7rem;
+    text-align: right;
+}
+.social-link {
+    /* align-items: end; */
+}
+
+.email-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    margin: 1rem 0% 0 10%;
+
+}
+
+.email-link h2 {
+    font-size: 1.7rem;
+    text-align: right;
+}
+
+.contact-from {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem 0 0 0;
+
+}
+
+.contact-from h2 {
+    font-size: 1.4rem;
+    text-align: right;
+    margin: 1rem 0 -0.2rem 0;
+}
+
+.contact-from-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem 0 0 0;
+}
+
+.contact-from input {
+    width: 80%;
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #000;
+    border-radius: 0px;
+    font-size: 1rem;
+}
+
+.contact-from textarea {
+    width: 80%;
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #000;
+    border-radius: 0px;
+    font-size: 1rem;
+}
+
+.contact-from button {
+    width: 94%;
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #000;
+    border-radius: 0px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-from-cnt button:hover {
+    background-color: #fff;
+    color: #000;
+}
