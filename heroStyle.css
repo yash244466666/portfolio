@@ -107,6 +107,9 @@ a {
     
     }
 
+    .hero-sec-content {
+        margin: 2rem 0 5rem 0;
+    }
 
     .hero-img {
         grid-template-areas: 
